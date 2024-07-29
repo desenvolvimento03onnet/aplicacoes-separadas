@@ -7,6 +7,6 @@
 
 <div align="center">
 
-[![Gif 1](./img/gif1.gif)]
+![Gif 1](./img/gif1.gif)
 
 </div>
