@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Botão Com Texto Animado</title>
+</head>
+<body>
+    <a href="#">Coloque o Mouse em Cima de Mim</a>
+    <a href="#">Clique Aqui</a>
+    <a href="#">Incrível</a>
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            link.innerHTML = link.innerText.split('').map((letras,i) => {
+                if(letras === ' '){
+                    return ' ';
+                } else {
+                    return `<span style="transition-delay:${i * 50}ms">${letras}</span>`
+                }
+            }).join('');
+        })
+    </script>
+</body>
+</html>
