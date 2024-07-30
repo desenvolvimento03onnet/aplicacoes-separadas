@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1 style="border-bottom: none">
-    <b><a href="#">CARD DOBRÁVEL</a></b>
+    <b><a href="#">SCROLL BASEADO EM SLIDER</a></b>
     <br>
 </h1>
 
